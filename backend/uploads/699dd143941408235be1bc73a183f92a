@@ -1,0 +1,5 @@
+full_name,phone,email,country,city,language,source,campaign_name
+John Doe,+1234567890,john@example.com,USA,New York,English,Website,Test Campaign
+Jane Smith,+0987654321,jane@example.com,Canada,Toronto,French,Social Media,
+Bob Johnson,,bob@example.com,UK,London,English,Email,
+Alice Brown,+1111111111,,Germany,Berlin,German,Referral,
