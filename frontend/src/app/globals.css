@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+:root {
+  --background: 220 33% 98%;
+  --foreground: 222 47% 11%;
+  --muted: 215 16% 74%;
+  --muted-foreground: 215 16% 35%;
+  --border: 220 16% 90%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --accent: 222 89% 63%;
+  --accent-foreground: 0 0% 100%;
+  --success: 142 76% 36%;
+  --warning: 38 92% 50%;
+  --danger: 354 81% 60%;
+}
+
+:root[data-theme='dark'] {
+  --background: 222 47% 7%;
+  --foreground: 213 31% 91%;
+  --muted: 217 19% 27%;
+  --muted-foreground: 214 32% 76%;
+  --border: 217 19% 27%;
+  --card: 223 47% 10%;
+  --card-foreground: 210 40% 98%;
+  --accent: 221 83% 67%;
+  --accent-foreground: 0 0% 100%;
+  --success: 142 71% 45%;
+  --warning: 38 92% 60%;
+  --danger: 357 74% 63%;
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html {
+    font-size: clamp(14px, 0.52vw + 12px, 18px);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100vh;
+    background: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: var(--font-latin), var(--font-arabic), var(--font-hebrew), 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  :dir(rtl) body {
+    font-family: var(--font-arabic), var(--font-hebrew), 'Tajawal', 'Heebo', var(--font-latin), system-ui, sans-serif;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+@layer utilities {
+  .app-shell {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    min-height: 100vh;
+  }
+
+  @media (max-width: 1024px) {
+    .app-shell {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .surface-card {
+    background: hsl(var(--card));
+    border-radius: 1rem;
+    border: 1px solid hsl(var(--border));
+    box-shadow: 0 20px 50px -40px hsl(var(--foreground) / 0.2);
+  }
+
+  .grid-responsive {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+
+  :dir(rtl) .rtl-flip {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+
+  .scroll-area {
+    scrollbar-width: thin;
+  }
+
+  .scroll-area::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scroll-area::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted));
+    border-radius: 999px;
+  }
+}
