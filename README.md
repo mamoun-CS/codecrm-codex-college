@@ -461,16 +461,6 @@ This backend is private and marked `UNLICENSED` in `package.json`. No permission
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-### Technology Overview
-
-| Layer | Technology | Purpose |
-|-------|------------|---------|
-| **Frontend** | [Framework and UI libraries] | User interface and client-side workflows |
-| **Backend** | [Runtime and framework] | Business logic and API services |
-| **Database** | [Database and ORM] | Persistent storage and data access |
-| **Authentication** | [Provider or library] | Identity, sessions, and access control |
-| **Deployment** | [Hosting platform] | Build, delivery, and production hosting |
-| **Monitoring** | [Monitoring tools] | Application health, errors, and diagnostics |
 
 ---
 
