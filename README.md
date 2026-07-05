@@ -5,9 +5,9 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-[A concise 1–2 sentence description of the project, the problem it solves, and its primary audience.]
+Codex CRM is a modern customer relationship management platform designed to help businesses centralize customer data, streamline sales operations, and automate everyday business workflows. Built for sales teams, managers, and organizations of all sizes, it improves collaboration, increases operational efficiency, and provides real-time insights for informed decision-making.
 
-**Project URL:** [View Project](Private Project)  
+Project URL: Private Project
 <!-- Replace with the live URL or "Private Project" -->
 
 ---
