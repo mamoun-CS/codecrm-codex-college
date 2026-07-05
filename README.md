@@ -47,12 +47,12 @@ The goal of Codex CRM is to streamline customer relationship management, optimiz
 
 The system provides:
 
-✅ A centralized workspace for managing leads, customers, sales pipelines, deals, tasks, and business operations.
-✅ Reliable access to real-time customer, sales, and performance data from a unified dashboard.
-✅ Automated handling of repetitive workflows, notifications, follow-ups, and business processes.
-✅ Comprehensive reporting, KPI dashboards, and actionable business insights for informed decision-making.
-✅ A fast, responsive, and consistent user experience across desktop, tablet, and mobile devices.
-✅ Secure management of users, roles, permissions, and business data with enterprise-grade access control.
+-✅ A centralized workspace for managing leads, customers, sales pipelines, deals, tasks, and business operations.
+-✅ Reliable access to real-time customer, sales, and performance data from a unified dashboard.
+-✅ Automated handling of repetitive workflows, notifications, follow-ups, and business processes.
+-✅ Comprehensive reporting, KPI dashboards, and actionable business insights for informed decision-making.
+-✅ A fast, responsive, and consistent user experience across desktop, tablet, and mobile devices.
+-✅ Secure management of users, roles, permissions, and business data with enterprise-grade access control.
 ---
 
 ## ✨ Key Features
